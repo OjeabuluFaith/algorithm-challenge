@@ -5,4 +5,3 @@ def encrypt (word):
     return s.translate(word1) + "aca"
 
 
-print(encrypt("banana"))

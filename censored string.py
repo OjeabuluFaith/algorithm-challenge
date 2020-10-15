@@ -12,6 +12,6 @@ def uncensor(string, vowels):
 
 
 # a shorter way
-def uncensor(txt, vowels):
-    	txt = txt.replace('*', '{}')
-	return txt.format(*vowels)
+def uncensor(stri, vowels):
+    	stri = stri.replace('*', '{}')
+	return stri.format(*vowels)
