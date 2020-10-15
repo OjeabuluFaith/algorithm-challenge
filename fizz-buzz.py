@@ -1,3 +1,6 @@
+"""Write a program that returns a list of all the numbers from 1 to an integer argument. 
+But for multiples of three use “Fizz” instead of the number and for the multiples of five use 
+“Buzz”. For numbers which are multiples of both three and five use “FizzBuzz". """
 def fizz_buzz(maximum):
     lst =[]
     for i in range(1, maximum + 1):
