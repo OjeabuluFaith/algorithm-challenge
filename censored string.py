@@ -1,3 +1,17 @@
+"""
+Author:faith ojeabulu 
+Date:10th october 2020 
+
+
+
+Question: Someone has attempted to censor my strings by replacing every vowel with a *, l*k* th*s. Luckily, I've been able to find the vowels that were removed.
+
+Given a censored string and a string of the censored vowels, return the original uncensored string.
+
+example: uncensor("*PP*RC*S*", "UEAE") ➞ "UPPERCASE"
+
+"""
+
 def uncensor(string, vowels):
     new_ = ""
     counter = 0
@@ -10,8 +24,3 @@ def uncensor(string, vowels):
     return new_
 
 
-
-# a shorter way
-def uncensor(stri, vowels):
-    	stri = stri.replace('*', '{}')
-	return stri.format(*vowels)
